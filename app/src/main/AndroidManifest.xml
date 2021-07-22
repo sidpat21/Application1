@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.Karnataka">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:ignore="HardcodedDebugMode">
+        <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="@string/google_maps_key"/>
+
+        <activity android:name="com.Karnataka.KA.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.Karnataka.KA.login"/>
+        <activity android:name="com.Karnataka.KA.register"/>
+        <activity android:name="com.Karnataka.KA.trialView"/>
+        <activity android:name="com.Karnataka.KA.hospital"/>
+        <activity android:name="com.Karnataka.KA.DonateActivityDrawer" />
+        <activity android:name="com.Karnataka.KA.AppointDoc" />
+        <activity android:name="com.Karnataka.KA.logout" />
+        <activity android:name="com.Karnataka.KA.youtube"/>
+        <activity android:name="com.Karnataka.KA.twitter"/>
+        <activity android:name="com.Karnataka.KA.call"/>
+        <activity android:name="com.Karnataka.KA.survey"/>
+        <activity android:name="com.Karnataka.KA.NavigationDrawerBaseActivity"/>
+        <activity android:name="com.Karnataka.KA.th1"/>
+        <activity android:name="com.Karnataka.KA.th2"/>
+        <activity android:name="com.Karnataka.KA.th3"/>
+        <activity android:name="com.Karnataka.KA.th4"/>
+        <activity android:name="com.Karnataka.KA.th5"/>
+        <activity android:name="com.Karnataka.KA.th6"/>
+        <activity android:name="com.Karnataka.KA.th7"/>
+        <activity android:name="com.Karnataka.KA.th8"/>
+        <activity android:name="com.Karnataka.KA.th9"/>
+        <activity android:name="com.Karnataka.KA.th10"/>
+        <activity android:name="com.Karnataka.KA.q"/>
+        <activity android:name="com.Karnataka.KA.BackgroundTask"/>
+        <activity android:name="com.Karnataka.KA.epass"/>
+        <activity android:name="com.Karnataka.KA.qw"/>
+        <activity android:name=".KA.reginner"/>
+        <activity android:name="com.Karnataka.KA.ho1"/>
+        <activity android:name="com.Karnataka.KA.quarentine"/>
+        <activity android:name="com.Karnataka.KA.others"/>
+        <activity android:name="com.Karnataka.KA.unor"/>
+        <activity android:name="com.Karnataka.KA.vot"/>
+        <activity android:name="com.Karnataka.KA.vvideo"/>
+        <activity android:name="com.Karnataka.KA.volunteerRegistration"/>
+        <activity android:name="com.Karnataka.KA.ngoRegistration"/>
+        <activity android:name="com.Karnataka.KA.trainingrepo"/>
+        <activity android:name=".KA.ActivityVideo"/>
+        <activity android:name=".KA.edmes"/>
+        <activity android:name="com.Karnataka.KA.indiaStat"/>
+        <activity android:name="com.Karnataka.KA.ka_stat"/>
+        <activity android:name="com.Karnataka.KA.volunteerTask"/>
+        <activity android:name="com.Karnataka.KA.epassCreate"/>
+        <activity android:name="com.Karnataka.KA.individual_qrcode"/>
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Healthcare">
+        <menu>
+            <item
+                android:id="@+id/nav_survey"
+                android:icon="?android:attr/actionModeFindDrawable"
+                android:title="Survey for symptoms" />
+
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/help"
+                android:title="Contact the helpline" />
+            <item
+                android:id="@+id/nav_sec"
+                android:icon="@drawable/hospital"
+                android:title="Find Hospital" />
+            <item
+                android:id="@+id/nav_movies"
+                android:icon="@drawable/cast_ic_stop_circle_filled_grey600"
+                android:title="Appoint a Doctor" />
+            <item
+                android:id="@+id/nav_watch"
+                android:icon="@drawable/cast_ic_stop_circle_filled_grey600"
+                android:title="Quarentine Watch" />
+
+        </menu>
+    </item>
+
+    <item android:title="Disaster Management">
+        <menu>
+            <item
+                android:id="@+id/q"
+                android:icon="@drawable/ic_mr_button_connected_20_light"
+                android:title="Covid19 latest info" />
+
+            <item
+                android:id="@+id/nav_finance"
+                android:icon="@drawable/cast_ic_stop_circle_filled_grey600"
+                android:title="Financial Support" />
+
+            <item
+                android:id="@+id/nav_qw"
+                android:icon="@drawable/pro"
+                android:title="Buy protective products " />
+
+            <item
+                android:id="@+id/nav_epass"
+                android:icon="?attr/homeAsUpIndicator"
+                android:title="Get E-Pass" />
+
+            <item
+                android:id="@+id/nav_don"
+                android:icon="@drawable/don"
+                android:title="Donate" />
+        </menu>
+    </item>
+
+    <item android:title="Social Media Awareness">
+        <menu>
+
+        </menu>
+    </item>
+
+    <item android:title="Education and Skilling">
+        <menu>
+            <item
+                android:id="@+id/vocational"
+                android:icon="@drawable/ic_menu_send"
+                android:title=" Vocational Training " />
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="Social Media Awareness">
+        <menu>
+            <item
+                android:id="@+id/twitter"
+                android:icon="@drawable/ic_menu_send"
+                android:title=" Covid19 Latest news" />
+            <item
+                android:id="@+id/youtube"
+                android:icon="@drawable/ic_local_movies_black_24dp"
+                android:title="Youtube" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/log"
+            android:title="Logout" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <item name="black_transparency_30" type="color">#4D000000</item>
+    <item name="red_transparency_30" type="color">#66FF0000</item>
+    <color name="bg_transparent">#00000000</color>
+    <color name="greyish_brown">#4d4d4d</color>
+    <color name="divider">#E9E9E9</color>
+    <color name="yellow">#f1c40f</color>
+    <color name="peach">#fdd365</color>
+    <color name="skyBlue">#d89cf6</color>
+    <color name="green">#27AE60</color>
+    <color name="light_purple">#E8E1E7</color>
+    <color name="light_green">#50d050</color>
+    <color name="dark_green">#008000</color>
+    <color name="lemon_green">#f9b384</color>
+    <color name="four">#40e0d0</color>
+    <color name="olive">#96b85d</color>
+
+    <color name="twilight_blue">#0a316d</color>
+    <color name="navy">#021430</color>
+    <color name="cool_grey">#9fa6b0</color>
+    <color name="duck_egg_blue">#d6f1f9</color>
+    <color name="sick_green">#acd433</color>
+    <color name="grapefruit">#ff6363</color>
+    <color name="black_63">#a1000000</color>
+    <color name="windows_blue">#3495af</color>
+</resources>

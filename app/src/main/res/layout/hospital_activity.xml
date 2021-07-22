@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:padding="5dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="fill_parent"
+                android:layout_height="145dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                cardview:cardBackgroundColor="@color/peach"
+                cardview:cardCornerRadius="20dp"
+                cardview:cardElevation="8dp"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/map3"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_google_signin_btn_text_light_focused"
+                        android:text="View Map"
+
+                        cardview:layout_constraintEnd_toEndOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/three"
+                        android:layout_width="226dp"
+                        android:layout_height="88dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="30dp"
+                        android:text="BMCRI - Bangalore Medical College and Research Institute, Bangalore"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        cardview:layout_constraintStart_toStartOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="fill_parent"
+                android:layout_height="145dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="120dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                cardview:cardBackgroundColor="@color/four"
+                cardview:cardCornerRadius="20dp"
+                cardview:cardElevation="8dp"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toTopOf="parent">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/map4"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_google_signin_btn_text_light_focused"
+                        android:text="View Map"
+
+                        cardview:layout_constraintEnd_toEndOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/four"
+                        android:layout_width="221dp"
+                        android:layout_height="77dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="36dp"
+                        android:text="Cancyte Technologies Pvt Ltd, Bangalore"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        cardview:layout_constraintStart_toStartOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="fill_parent"
+                android:layout_height="145dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                cardview:cardBackgroundColor="@android:color/holo_blue_light"
+                cardview:cardCornerRadius="20dp"
+                cardview:cardElevation="8dp"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/map5"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_google_signin_btn_text_light_focused"
+                        android:text="View Map"
+
+                        cardview:layout_constraintEnd_toEndOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/five"
+                        android:layout_width="221dp"
+                        android:layout_height="77dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="36dp"
+                        android:text="Hassan Institute Of Medical Sciences"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        cardview:layout_constraintStart_toStartOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView5"
+                android:layout_width="fill_parent"
+                android:layout_height="145dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                cardview:cardBackgroundColor="@color/skyBlue"
+                cardview:cardCornerRadius="20dp"
+                cardview:cardElevation="8dp"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/map6"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_google_signin_btn_text_light_focused"
+                        android:text="View Map"
+
+                        cardview:layout_constraintEnd_toEndOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/six"
+                        android:layout_width="221dp"
+                        android:layout_height="77dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="36dp"
+                        android:text="Gulbarga Institute of Medical Sciences, Gulbarga"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        cardview:layout_constraintStart_toStartOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView6"
+                android:layout_width="fill_parent"
+                android:layout_height="145dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                cardview:cardBackgroundColor="@color/red_transparency_30"
+                cardview:cardCornerRadius="20dp"
+                cardview:cardElevation="8dp"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/map7"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_google_signin_btn_text_light_focused"
+                        android:text="View Map"
+
+                        cardview:layout_constraintEnd_toEndOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/seven"
+                        android:layout_width="221dp"
+                        android:layout_height="77dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="36dp"
+                        android:text="Mysore Medical College And Research Institute, Mysore"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        cardview:layout_constraintStart_toStartOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView7"
+                android:layout_width="fill_parent"
+                android:layout_height="145dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                cardview:cardBackgroundColor="@color/light_green"
+                cardview:cardCornerRadius="20dp"
+                cardview:cardElevation="8dp"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toBottomOf="@+id/cardView6">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/map8"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_google_signin_btn_text_light_focused"
+                        android:text="View Map"
+
+                        cardview:layout_constraintEnd_toEndOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/eight"
+                        android:layout_width="221dp"
+                        android:layout_height="77dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="36dp"
+                        android:text="Neuberg Anand Reference Laboratory, Bangalore"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        cardview:layout_constraintStart_toStartOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView8"
+                android:layout_width="fill_parent"
+                android:layout_height="145dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                cardview:cardBackgroundColor="@color/peach"
+                cardview:cardCornerRadius="20dp"
+                cardview:cardElevation="8dp"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/map9"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_google_signin_btn_text_light_focused"
+                        android:text="View Map"
+
+                        cardview:layout_constraintEnd_toEndOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/nine"
+                        android:layout_width="221dp"
+                        android:layout_height="77dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="36dp"
+                        android:text="SHIMOGA Institute of Medical Sciences (SIMS), Shivamogga"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        cardview:layout_constraintStart_toStartOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView9"
+                android:layout_width="fill_parent"
+                android:layout_height="145dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                cardview:cardBackgroundColor="@color/light_green"
+                cardview:cardCornerRadius="20dp"
+                cardview:cardElevation="8dp"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/map10"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_google_signin_btn_text_light_focused"
+                        android:text="View Map"
+
+                        cardview:layout_constraintEnd_toEndOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/ten"
+                        android:layout_width="221dp"
+                        android:layout_height="77dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="36dp"
+                        android:text="VIMS, Cantonment, Ballari"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        cardview:layout_constraintStart_toStartOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView10"
+                android:layout_width="fill_parent"
+                android:layout_height="145dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                cardview:cardBackgroundColor="@color/lemon_green"
+                cardview:cardCornerRadius="20dp"
+                cardview:cardElevation="8dp"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toBottomOf="@+id/cardView9">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/map11"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_google_signin_btn_text_light_focused"
+                        android:text="View Map"
+
+                        cardview:layout_constraintEnd_toEndOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/eleven"
+                        android:layout_width="221dp"
+                        android:layout_height="77dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="36dp"
+                        android:text="Karanataka Institute of Medical Sciences, Hubli"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        cardview:layout_constraintStart_toStartOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView11"
+                android:layout_width="fill_parent"
+                android:layout_height="145dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                cardview:cardBackgroundColor="@color/cast_intro_overlay_button_background_color"
+                cardview:cardCornerRadius="20dp"
+                cardview:cardElevation="8dp"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toBottomOf="@+id/cardView10">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:id="@+id/map12"
+                        android:layout_width="109dp"
+                        android:layout_height="103dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_google_signin_btn_text_light_focused"
+                        android:text="View Map"
+
+                        cardview:layout_constraintEnd_toEndOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/twelve"
+                        android:layout_width="221dp"
+                        android:layout_height="77dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="36dp"
+                        android:text="BIMS, Belgaum"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        cardview:layout_constraintStart_toStartOf="parent"
+                        cardview:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="385dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="21dp"
+                android:text="Covid19 Exclusive hospitals in Karnataka"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toTopOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+</LinearLayout>
