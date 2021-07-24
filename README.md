@@ -1,3 +1,3 @@
 # Application1
 
-### Note: few images may be subject to copyright.
+### Note: Some images may be subject to copyright.
